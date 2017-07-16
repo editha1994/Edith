@@ -1,0 +1,68 @@
+.contenier{
+   
+	margin: 80px auto;
+	width: 1300px;
+	height: 500px;
+  background-color: #9A2EFE;
+  overflow: hidden;
+	border: 2px solid;
+	border-left-color: black;/*colores para el borde*/
+	border-right-color: black;
+  border-bottom-color: black;
+	position: relative;
+  box-shadow: 100px 10px 15px 100px rgba(0,0,0,0.5)
+
+}
+.slider1 img{  
+ background: pink;                                          
+  width: 400px;
+  height: 400px;
+  border-image: 100px;
+  position: absolute; 
+  box-shadow: 10px 10px 10px 10px rgba(10, 10, 10, 0.50);                     
+  animation: ARIZAPANA1 20s infinite; 
+  /* margin: -5px -5px 0 0 ;
+  cursor: pointer;*/               
+  }                
+ @keyframes  ARIZAPANA1 {
+ 0%{right:-40%;top:10px;border-radius: 100%;}       
+ 70%{right:68%;top:10px;border-radius: 100%;}
+ 80%{right:68%;top:10px;border-radius:0 0 0 0;}          
+ 100%{right:68%;top:10px;border-radius: 100%;}   
+           
+ }   
+ .slider2 img{    
+                               
+  width: 400px;
+ height: 400px;
+ position: absolute;      
+ box-shadow: 10px 10px 10px 10px rgba(10, 10, 10, 0.50);                 
+ animation: ARIZAPANA2 20s infinite;                
+  }                
+ @keyframes ARIZAPANA2{
+  0%{right:-40%;top:10px;border-radius: 100%;}       
+ 20%{right:-40%;top:10px;border-radius: 100%;} 
+40%{right:-40%;top:10px;border-radius: 50%;} 
+ 60%{right:-40%;top:10px;border-radius: 50%;} 
+ 80%{right:34%;top:10px;border-radius: 50%;}
+ 90%{right:34%;top:10px;border-radius: 0 0 0 0;}
+ 100%{right:34%;top:10px;border-radius: 100%;}
+
+ }
+.slider3 img{                  
+ width: 400px;
+ height: 400px;
+ position: absolute;   
+ box-shadow: 10px 10px 10px 10px rgba(10, 10, 10, 0.50);                    
+ animation: ARIZAPANA3 20s infinite;                
+ }                
+ @keyframes ARIZAPANA3{
+ 0%{right:-40%;top:10px;border-radius: 100%;}       
+ 20%{right:-40%;top:10px;border-radius: 100%;} 
+ 40%{right:-40%;top:10px;border-radius: 50%;} 
+ 60%{right:-40%;top:10px;border-radius: 50%;} 
+ 80%{right:-40%;top:10px;border-radius: 50%;} 
+ 90%{right:1%;top:10px;border-radius: 100%;}         
+ 95%{right:1%;top:10px;border-radius: 0 0 0 0;}
+ 100%{right:1%;top:10px;border-radius: 50%;}
+ }
